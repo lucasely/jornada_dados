@@ -20,5 +20,5 @@ jobs:
             - name: Instalar as bibliotecas
               run: pip install -r requirements.txt
 
-              - name: Rodar a rotina de testes
+            - name: Rodar a rotina de testes
               run: pytest tests/test_contrato.py
